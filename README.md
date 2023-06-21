@@ -3,7 +3,7 @@
 Simple FSM coordination for the app using Combine
 This is an old version still using minimum protocol and Storyboards
 
-![combine-coordination-old](https://github.com/patdnk/combine-coordination/assets/11911855/fec736cf-bc14-4129-b661-ef89754e1ef5)
+![combine-coordination-old](https://github.com/patdnk/combine-coordination/assets/11911855/c804938f-baf0-42a9-91ef-8df23589ad56)
 
 ## Usage
 
