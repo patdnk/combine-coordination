@@ -8,22 +8,68 @@
 
 /* Begin PBXBuildFile section */
 		08209F4C279038F0006FCE05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F4B279038F0006FCE05 /* AppDelegate.swift */; };
-		08209F4E279038F0006FCE05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F4D279038F0006FCE05 /* SceneDelegate.swift */; };
-		08209F50279038F0006FCE05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F4F279038F0006FCE05 /* ViewController.swift */; };
-		08209F53279038F0006FCE05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08209F51279038F0006FCE05 /* Main.storyboard */; };
 		08209F55279038F1006FCE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08209F54279038F1006FCE05 /* Assets.xcassets */; };
 		08209F58279038F1006FCE05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08209F56279038F1006FCE05 /* LaunchScreen.storyboard */; };
+		08209F6B279039A6006FCE05 /* FeatureCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F6A279039A6006FCE05 /* FeatureCoordinator.swift */; };
+		08209F6E27903A0A006FCE05 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F6D27903A0A006FCE05 /* Coordinator.swift */; };
+		08209F7027903A61006FCE05 /* CombineCancellableHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F6F27903A61006FCE05 /* CombineCancellableHolder.swift */; };
+		08209F7227903ABE006FCE05 /* AnyPublisher+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F7127903ABE006FCE05 /* AnyPublisher+Extensions.swift */; };
+		08209F7F27904190006FCE05 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F7E27904190006FCE05 /* Storyboarded.swift */; };
+		08209F8127904219006FCE05 /* Publisher+Sink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F8027904219006FCE05 /* Publisher+Sink.swift */; };
+		08209F8427904CD7006FCE05 /* FeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F8327904CD7006FCE05 /* FeatureViewController.swift */; };
+		08209F8827904CF1006FCE05 /* FeatureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F8727904CF1006FCE05 /* FeatureViewModel.swift */; };
+		08209F8A27904D06006FCE05 /* FeatureFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F8927904D06006FCE05 /* FeatureFactory.swift */; };
+		08209F8C2790531E006FCE05 /* SwipableNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F8B2790531E006FCE05 /* SwipableNavigationController.swift */; };
+		08209F8F27905385006FCE05 /* PropertyStoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F8E27905385006FCE05 /* PropertyStoring.swift */; };
+		08209F91279053A3006FCE05 /* CancellableResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F90279053A3006FCE05 /* CancellableResult.swift */; };
+		08209F93279053ED006FCE05 /* Publisher+Handling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F92279053ED006FCE05 /* Publisher+Handling.swift */; };
+		08F0080A279072DA00772920 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F7327903C34006FCE05 /* AppCoordinator.swift */; };
+		08F0080B27907B6C00772920 /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F6627903963006FCE05 /* FirstViewModel.swift */; };
+		08F0080C27907B6C00772920 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F6227903939006FCE05 /* FirstViewController.swift */; };
+		08F0080D27907B6C00772920 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08209F6427903952006FCE05 /* First.storyboard */; };
+		08F0080E27907B6C00772920 /* FirstFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F6827903971006FCE05 /* FirstFactory.swift */; };
+		08F008102790962D00772920 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F0080F2790962D00772920 /* SceneDelegate.swift */; };
+		08F008122791B22D00772920 /* UIControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F008112791B22D00772920 /* UIControl+Extensions.swift */; };
+		08F008132795874C00772920 /* SecondFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F7A27904063006FCE05 /* SecondFactory.swift */; };
+		08F008142795874F00772920 /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F7827904059006FCE05 /* SecondViewModel.swift */; };
+		08F008152795875300772920 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08209F762790404D006FCE05 /* SecondViewController.swift */; };
+		08F008162795875B00772920 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08209F7C27904074006FCE05 /* Second.storyboard */; };
+		08F008192795885400772920 /* FinitoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F008182795885400772920 /* FinitoViewController.swift */; };
+		08F0081D2795887E00772920 /* Finito.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F0081C2795887E00772920 /* Finito.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		08209F48279038F0006FCE05 /* CombineCoordination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineCoordination.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08209F4B279038F0006FCE05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		08209F4D279038F0006FCE05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		08209F4F279038F0006FCE05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		08209F52279038F0006FCE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08209F54279038F1006FCE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08209F57279038F1006FCE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08209F59279038F1006FCE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08209F6227903939006FCE05 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		08209F6427903952006FCE05 /* First.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
+		08209F6627903963006FCE05 /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
+		08209F6827903971006FCE05 /* FirstFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFactory.swift; sourceTree = "<group>"; };
+		08209F6A279039A6006FCE05 /* FeatureCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCoordinator.swift; sourceTree = "<group>"; };
+		08209F6D27903A0A006FCE05 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		08209F6F27903A61006FCE05 /* CombineCancellableHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCancellableHolder.swift; sourceTree = "<group>"; };
+		08209F7127903ABE006FCE05 /* AnyPublisher+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyPublisher+Extensions.swift"; sourceTree = "<group>"; };
+		08209F7327903C34006FCE05 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		08209F762790404D006FCE05 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		08209F7827904059006FCE05 /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
+		08209F7A27904063006FCE05 /* SecondFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFactory.swift; sourceTree = "<group>"; };
+		08209F7C27904074006FCE05 /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		08209F7E27904190006FCE05 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		08209F8027904219006FCE05 /* Publisher+Sink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Sink.swift"; sourceTree = "<group>"; };
+		08209F8327904CD7006FCE05 /* FeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureViewController.swift; sourceTree = "<group>"; };
+		08209F8727904CF1006FCE05 /* FeatureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureViewModel.swift; sourceTree = "<group>"; };
+		08209F8927904D06006FCE05 /* FeatureFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureFactory.swift; sourceTree = "<group>"; };
+		08209F8B2790531E006FCE05 /* SwipableNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipableNavigationController.swift; sourceTree = "<group>"; };
+		08209F8E27905385006FCE05 /* PropertyStoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyStoring.swift; sourceTree = "<group>"; };
+		08209F90279053A3006FCE05 /* CancellableResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellableResult.swift; sourceTree = "<group>"; };
+		08209F92279053ED006FCE05 /* Publisher+Handling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Handling.swift"; sourceTree = "<group>"; };
+		08F0080F2790962D00772920 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		08F008112791B22D00772920 /* UIControl+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Extensions.swift"; sourceTree = "<group>"; };
+		08F008182795885400772920 /* FinitoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinitoViewController.swift; sourceTree = "<group>"; };
+		08F0081C2795887E00772920 /* Finito.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Finito.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +103,101 @@
 			isa = PBXGroup;
 			children = (
 				08209F4B279038F0006FCE05 /* AppDelegate.swift */,
-				08209F4D279038F0006FCE05 /* SceneDelegate.swift */,
-				08209F4F279038F0006FCE05 /* ViewController.swift */,
-				08209F51279038F0006FCE05 /* Main.storyboard */,
-				08209F54279038F1006FCE05 /* Assets.xcassets */,
+				08F0080F2790962D00772920 /* SceneDelegate.swift */,
 				08209F56279038F1006FCE05 /* LaunchScreen.storyboard */,
+				08209F6C279039FF006FCE05 /* Utils */,
+				08209F5F2790390C006FCE05 /* Coordinator */,
+				08209F6027903914006FCE05 /* Screens */,
+				08209F54279038F1006FCE05 /* Assets.xcassets */,
 				08209F59279038F1006FCE05 /* Info.plist */,
 			);
 			path = CombineCoordination;
+			sourceTree = "<group>";
+		};
+		08209F5F2790390C006FCE05 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				08209F7327903C34006FCE05 /* AppCoordinator.swift */,
+				08209F6A279039A6006FCE05 /* FeatureCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		08209F6027903914006FCE05 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				08209F8227904CC0006FCE05 /* OB */,
+				08209F6127903920006FCE05 /* First */,
+				08209F752790403B006FCE05 /* Second */,
+				08F008172795883B00772920 /* Finito */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		08209F6127903920006FCE05 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				08209F6827903971006FCE05 /* FirstFactory.swift */,
+				08209F6627903963006FCE05 /* FirstViewModel.swift */,
+				08209F6227903939006FCE05 /* FirstViewController.swift */,
+				08209F6427903952006FCE05 /* First.storyboard */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		08209F6C279039FF006FCE05 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				08209F8D27905372006FCE05 /* Combine */,
+				08209F6D27903A0A006FCE05 /* Coordinator.swift */,
+				08209F8E27905385006FCE05 /* PropertyStoring.swift */,
+				08209F7E27904190006FCE05 /* Storyboarded.swift */,
+				08209F8B2790531E006FCE05 /* SwipableNavigationController.swift */,
+				08209F90279053A3006FCE05 /* CancellableResult.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		08209F752790403B006FCE05 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				08209F7A27904063006FCE05 /* SecondFactory.swift */,
+				08209F7827904059006FCE05 /* SecondViewModel.swift */,
+				08209F762790404D006FCE05 /* SecondViewController.swift */,
+				08209F7C27904074006FCE05 /* Second.storyboard */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		08209F8227904CC0006FCE05 /* OB */ = {
+			isa = PBXGroup;
+			children = (
+				08209F8927904D06006FCE05 /* FeatureFactory.swift */,
+				08209F8727904CF1006FCE05 /* FeatureViewModel.swift */,
+				08209F8327904CD7006FCE05 /* FeatureViewController.swift */,
+			);
+			path = OB;
+			sourceTree = "<group>";
+		};
+		08209F8D27905372006FCE05 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				08209F6F27903A61006FCE05 /* CombineCancellableHolder.swift */,
+				08209F7127903ABE006FCE05 /* AnyPublisher+Extensions.swift */,
+				08209F8027904219006FCE05 /* Publisher+Sink.swift */,
+				08209F92279053ED006FCE05 /* Publisher+Handling.swift */,
+				08F008112791B22D00772920 /* UIControl+Extensions.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		08F008172795883B00772920 /* Finito */ = {
+			isa = PBXGroup;
+			children = (
+				08F008182795885400772920 /* FinitoViewController.swift */,
+				08F0081C2795887E00772920 /* Finito.storyboard */,
+			);
+			path = Finito;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +258,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F008162795875B00772920 /* Second.storyboard in Resources */,
 				08209F58279038F1006FCE05 /* LaunchScreen.storyboard in Resources */,
+				08F0081D2795887E00772920 /* Finito.storyboard in Resources */,
 				08209F55279038F1006FCE05 /* Assets.xcassets in Resources */,
-				08209F53279038F0006FCE05 /* Main.storyboard in Resources */,
+				08F0080D27907B6C00772920 /* First.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +273,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08209F50279038F0006FCE05 /* ViewController.swift in Sources */,
+				08F008132795874C00772920 /* SecondFactory.swift in Sources */,
+				08209F7F27904190006FCE05 /* Storyboarded.swift in Sources */,
+				08F0080E27907B6C00772920 /* FirstFactory.swift in Sources */,
+				08209F8C2790531E006FCE05 /* SwipableNavigationController.swift in Sources */,
+				08F0080A279072DA00772920 /* AppCoordinator.swift in Sources */,
+				08209F8427904CD7006FCE05 /* FeatureViewController.swift in Sources */,
+				08209F93279053ED006FCE05 /* Publisher+Handling.swift in Sources */,
+				08209F6E27903A0A006FCE05 /* Coordinator.swift in Sources */,
+				08F0080B27907B6C00772920 /* FirstViewModel.swift in Sources */,
+				08209F91279053A3006FCE05 /* CancellableResult.swift in Sources */,
+				08F008152795875300772920 /* SecondViewController.swift in Sources */,
 				08209F4C279038F0006FCE05 /* AppDelegate.swift in Sources */,
-				08209F4E279038F0006FCE05 /* SceneDelegate.swift in Sources */,
+				08209F8127904219006FCE05 /* Publisher+Sink.swift in Sources */,
+				08F008192795885400772920 /* FinitoViewController.swift in Sources */,
+				08F0080C27907B6C00772920 /* FirstViewController.swift in Sources */,
+				08209F7027903A61006FCE05 /* CombineCancellableHolder.swift in Sources */,
+				08209F7227903ABE006FCE05 /* AnyPublisher+Extensions.swift in Sources */,
+				08209F8827904CF1006FCE05 /* FeatureViewModel.swift in Sources */,
+				08F008122791B22D00772920 /* UIControl+Extensions.swift in Sources */,
+				08209F8F27905385006FCE05 /* PropertyStoring.swift in Sources */,
+				08F008142795874F00772920 /* SecondViewModel.swift in Sources */,
+				08F008102790962D00772920 /* SceneDelegate.swift in Sources */,
+				08209F8A27904D06006FCE05 /* FeatureFactory.swift in Sources */,
+				08209F6B279039A6006FCE05 /* FeatureCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		08209F51279038F0006FCE05 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				08209F52279038F0006FCE05 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		08209F56279038F1006FCE05 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +442,6 @@
 				INFOPLIST_FILE = CombineCoordination/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +469,6 @@
 				INFOPLIST_FILE = CombineCoordination/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
